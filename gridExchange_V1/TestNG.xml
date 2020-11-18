@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="gridExchange_V1">
+
+
+	<listeners>
+       <listener class-name="com.gridexchange.utilities.Reporting"/>
+	</listeners>
+	<!-- FIXME change it to the project's website -->
+	<test name="CC Login Test">
+    <parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.gridexchange.testCases.TC_CCQuoteCreation_001" />
+			<!--class name="com.gridexchange.testCases.TC_LoginUsers_002" -->
+		</classes>
+	</test>
+
+</suite>
